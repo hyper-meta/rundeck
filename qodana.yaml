@@ -1,2 +1,30 @@
 version: "1.0"
 linter: jetbrains/qodana-jvm:2024.1
+include:
+  - name: ThrowablePrintStackTrace
+  - name: Deprecation
+  - name: DeprecatedIsStillUsed
+  - name: ExtractMethodRecommender
+  - name: SizeReplaceableByIsEmpty
+  - name: CStyleArrayDeclaration
+  - name: FieldMayBeFinal
+  - name: TypeParameterExtendsObject
+  - name: UnnecessaryToStringCall
+  - name: UnnecessaryModifier
+  - name: UnnecessarySemicolon
+  - name: UNCHECKED_WARNING
+  - name: TrivialIf
+  - name: UnnecessaryLocalVariable
+  - name: DuplicateThrows
+  - name: DuplicatedCode
+  - name: UNUSED_IMPORT
+  - name: JavadocReference
+  - name: JavadocDeclaration
+  - name: StringEqualsEmptyString
+  - name: RegExpRedundantEscape
+  - name: RegExpSimplifiable
+  - name: LombokGetterMayBeUsed
+  - name: LombokSetterMayBeUsed
+  - name: RedundantTypeArguments
+  - name: RedundantCast
+  - name: UnnecessaryStringEscape
